@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21053D2822088635006AFFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D2722088635006AFFB7 /* AppDelegate.swift */; };
+		21053D2A22088635006AFFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D2922088635006AFFB7 /* ViewController.swift */; };
+		21053D2D22088635006AFFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21053D2B22088635006AFFB7 /* Main.storyboard */; };
+		21053D2F22088637006AFFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21053D2E22088637006AFFB7 /* Assets.xcassets */; };
+		21053D3222088637006AFFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21053D3022088637006AFFB7 /* LaunchScreen.storyboard */; };
+		21053D3D22088637006AFFB7 /* AudioWaveFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D3C22088637006AFFB7 /* AudioWaveFormTests.swift */; };
+		21053D4822088637006AFFB7 /* AudioWaveFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D4722088637006AFFB7 /* AudioWaveFormUITests.swift */; };
+		21053D612208868A006AFFB7 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21053D5B2208868A006AFFB7 /* pausebutton.png */; };
+		21053D622208868A006AFFB7 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21053D5C2208868A006AFFB7 /* playbutton.png */; };
+		21053D632208868A006AFFB7 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21053D5D2208868A006AFFB7 /* SCWaveformView.m */; };
+		21053D642208868A006AFFB7 /* SYWaveformPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21053D5E2208868A006AFFB7 /* SYWaveformPlayerView.m */; };
+		21053D6822088693006AFFB7 /* SDDownloadObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D6522088693006AFFB7 /* SDDownloadObject.swift */; };
+		21053D6922088693006AFFB7 /* SDFileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D6622088693006AFFB7 /* SDFileUtils.swift */; };
+		21053D6A22088693006AFFB7 /* SDDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21053D6722088693006AFFB7 /* SDDownloadManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21053D3922088637006AFFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21053D1C22088635006AFFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21053D2322088635006AFFB7;
+			remoteInfo = AudioWaveForm;
+		};
+		21053D4422088637006AFFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21053D1C22088635006AFFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21053D2322088635006AFFB7;
+			remoteInfo = AudioWaveForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21053D2422088635006AFFB7 /* AudioWaveForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioWaveForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21053D2722088635006AFFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21053D2922088635006AFFB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21053D2C22088635006AFFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21053D2E22088637006AFFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21053D3122088637006AFFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21053D3322088637006AFFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21053D3822088637006AFFB7 /* AudioWaveFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioWaveFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21053D3C22088637006AFFB7 /* AudioWaveFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveFormTests.swift; sourceTree = "<group>"; };
+		21053D3E22088637006AFFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21053D4322088637006AFFB7 /* AudioWaveFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioWaveFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21053D4722088637006AFFB7 /* AudioWaveFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveFormUITests.swift; sourceTree = "<group>"; };
+		21053D4922088637006AFFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21053D5822088678006AFFB7 /* AudioWaveForm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioWaveForm-Bridging-Header.h"; sourceTree = "<group>"; };
+		21053D5B2208868A006AFFB7 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		21053D5C2208868A006AFFB7 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		21053D5D2208868A006AFFB7 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformView.m; sourceTree = "<group>"; };
+		21053D5E2208868A006AFFB7 /* SYWaveformPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWaveformPlayerView.m; sourceTree = "<group>"; };
+		21053D5F2208868A006AFFB7 /* SYWaveformPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWaveformPlayerView.h; sourceTree = "<group>"; };
+		21053D602208868A006AFFB7 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformView.h; sourceTree = "<group>"; };
+		21053D6522088693006AFFB7 /* SDDownloadObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDownloadObject.swift; sourceTree = "<group>"; };
+		21053D6622088693006AFFB7 /* SDFileUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDFileUtils.swift; sourceTree = "<group>"; };
+		21053D6722088693006AFFB7 /* SDDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDDownloadManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21053D2122088635006AFFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D3522088637006AFFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D4022088637006AFFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21053D1B22088635006AFFB7 = {
+			isa = PBXGroup;
+			children = (
+				21053D2622088635006AFFB7 /* AudioWaveForm */,
+				21053D3B22088637006AFFB7 /* AudioWaveFormTests */,
+				21053D4622088637006AFFB7 /* AudioWaveFormUITests */,
+				21053D2522088635006AFFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21053D2522088635006AFFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21053D2422088635006AFFB7 /* AudioWaveForm.app */,
+				21053D3822088637006AFFB7 /* AudioWaveFormTests.xctest */,
+				21053D4322088637006AFFB7 /* AudioWaveFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21053D2622088635006AFFB7 /* AudioWaveForm */ = {
+			isa = PBXGroup;
+			children = (
+				21053D5522088654006AFFB7 /* Resources */,
+				21053D2722088635006AFFB7 /* AppDelegate.swift */,
+				21053D2922088635006AFFB7 /* ViewController.swift */,
+				21053D2B22088635006AFFB7 /* Main.storyboard */,
+				21053D2E22088637006AFFB7 /* Assets.xcassets */,
+				21053D3022088637006AFFB7 /* LaunchScreen.storyboard */,
+				21053D3322088637006AFFB7 /* Info.plist */,
+				21053D5822088678006AFFB7 /* AudioWaveForm-Bridging-Header.h */,
+			);
+			path = AudioWaveForm;
+			sourceTree = "<group>";
+		};
+		21053D3B22088637006AFFB7 /* AudioWaveFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				21053D3C22088637006AFFB7 /* AudioWaveFormTests.swift */,
+				21053D3E22088637006AFFB7 /* Info.plist */,
+			);
+			path = AudioWaveFormTests;
+			sourceTree = "<group>";
+		};
+		21053D4622088637006AFFB7 /* AudioWaveFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21053D4722088637006AFFB7 /* AudioWaveFormUITests.swift */,
+				21053D4922088637006AFFB7 /* Info.plist */,
+			);
+			path = AudioWaveFormUITests;
+			sourceTree = "<group>";
+		};
+		21053D5522088654006AFFB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21053D5722088664006AFFB7 /* SYWaveformPlayer */,
+				21053D562208865B006AFFB7 /* SDDownloadManager */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21053D562208865B006AFFB7 /* SDDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				21053D6722088693006AFFB7 /* SDDownloadManager.swift */,
+				21053D6522088693006AFFB7 /* SDDownloadObject.swift */,
+				21053D6622088693006AFFB7 /* SDFileUtils.swift */,
+			);
+			path = SDDownloadManager;
+			sourceTree = "<group>";
+		};
+		21053D5722088664006AFFB7 /* SYWaveformPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				21053D5B2208868A006AFFB7 /* pausebutton.png */,
+				21053D5C2208868A006AFFB7 /* playbutton.png */,
+				21053D602208868A006AFFB7 /* SCWaveformView.h */,
+				21053D5D2208868A006AFFB7 /* SCWaveformView.m */,
+				21053D5F2208868A006AFFB7 /* SYWaveformPlayerView.h */,
+				21053D5E2208868A006AFFB7 /* SYWaveformPlayerView.m */,
+			);
+			path = SYWaveformPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21053D2322088635006AFFB7 /* AudioWaveForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21053D4C22088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveForm" */;
+			buildPhases = (
+				21053D2022088635006AFFB7 /* Sources */,
+				21053D2122088635006AFFB7 /* Frameworks */,
+				21053D2222088635006AFFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioWaveForm;
+			productName = AudioWaveForm;
+			productReference = 21053D2422088635006AFFB7 /* AudioWaveForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21053D3722088637006AFFB7 /* AudioWaveFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21053D4F22088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveFormTests" */;
+			buildPhases = (
+				21053D3422088637006AFFB7 /* Sources */,
+				21053D3522088637006AFFB7 /* Frameworks */,
+				21053D3622088637006AFFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21053D3A22088637006AFFB7 /* PBXTargetDependency */,
+			);
+			name = AudioWaveFormTests;
+			productName = AudioWaveFormTests;
+			productReference = 21053D3822088637006AFFB7 /* AudioWaveFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21053D4222088637006AFFB7 /* AudioWaveFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21053D5222088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveFormUITests" */;
+			buildPhases = (
+				21053D3F22088637006AFFB7 /* Sources */,
+				21053D4022088637006AFFB7 /* Frameworks */,
+				21053D4122088637006AFFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21053D4522088637006AFFB7 /* PBXTargetDependency */,
+			);
+			name = AudioWaveFormUITests;
+			productName = AudioWaveFormUITests;
+			productReference = 21053D4322088637006AFFB7 /* AudioWaveFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21053D1C22088635006AFFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AK_Creation;
+				TargetAttributes = {
+					21053D2322088635006AFFB7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					21053D3722088637006AFFB7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 21053D2322088635006AFFB7;
+					};
+					21053D4222088637006AFFB7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 21053D2322088635006AFFB7;
+					};
+				};
+			};
+			buildConfigurationList = 21053D1F22088635006AFFB7 /* Build configuration list for PBXProject "AudioWaveForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21053D1B22088635006AFFB7;
+			productRefGroup = 21053D2522088635006AFFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21053D2322088635006AFFB7 /* AudioWaveForm */,
+				21053D3722088637006AFFB7 /* AudioWaveFormTests */,
+				21053D4222088637006AFFB7 /* AudioWaveFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21053D2222088635006AFFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21053D612208868A006AFFB7 /* pausebutton.png in Resources */,
+				21053D622208868A006AFFB7 /* playbutton.png in Resources */,
+				21053D3222088637006AFFB7 /* LaunchScreen.storyboard in Resources */,
+				21053D2F22088637006AFFB7 /* Assets.xcassets in Resources */,
+				21053D2D22088635006AFFB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D3622088637006AFFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D4122088637006AFFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21053D2022088635006AFFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21053D642208868A006AFFB7 /* SYWaveformPlayerView.m in Sources */,
+				21053D632208868A006AFFB7 /* SCWaveformView.m in Sources */,
+				21053D6922088693006AFFB7 /* SDFileUtils.swift in Sources */,
+				21053D6822088693006AFFB7 /* SDDownloadObject.swift in Sources */,
+				21053D2A22088635006AFFB7 /* ViewController.swift in Sources */,
+				21053D2822088635006AFFB7 /* AppDelegate.swift in Sources */,
+				21053D6A22088693006AFFB7 /* SDDownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D3422088637006AFFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21053D3D22088637006AFFB7 /* AudioWaveFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21053D3F22088637006AFFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21053D4822088637006AFFB7 /* AudioWaveFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21053D3A22088637006AFFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21053D2322088635006AFFB7 /* AudioWaveForm */;
+			targetProxy = 21053D3922088637006AFFB7 /* PBXContainerItemProxy */;
+		};
+		21053D4522088637006AFFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21053D2322088635006AFFB7 /* AudioWaveForm */;
+			targetProxy = 21053D4422088637006AFFB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21053D2B22088635006AFFB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21053D2C22088635006AFFB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21053D3022088637006AFFB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21053D3122088637006AFFB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21053D4A22088637006AFFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21053D4B22088637006AFFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21053D4D22088637006AFFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveForm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioWaveForm/AudioWaveForm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21053D4E22088637006AFFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveForm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioWaveForm/AudioWaveForm-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21053D5022088637006AFFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveFormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioWaveForm.app/AudioWaveForm";
+			};
+			name = Debug;
+		};
+		21053D5122088637006AFFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveFormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioWaveForm.app/AudioWaveForm";
+			};
+			name = Release;
+		};
+		21053D5322088637006AFFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveFormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioWaveForm;
+			};
+			name = Debug;
+		};
+		21053D5422088637006AFFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioWaveFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AK-Creation.AudioWaveFormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioWaveForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21053D1F22088635006AFFB7 /* Build configuration list for PBXProject "AudioWaveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21053D4A22088637006AFFB7 /* Debug */,
+				21053D4B22088637006AFFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21053D4C22088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21053D4D22088637006AFFB7 /* Debug */,
+				21053D4E22088637006AFFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21053D4F22088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21053D5022088637006AFFB7 /* Debug */,
+				21053D5122088637006AFFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21053D5222088637006AFFB7 /* Build configuration list for PBXNativeTarget "AudioWaveFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21053D5322088637006AFFB7 /* Debug */,
+				21053D5422088637006AFFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21053D1C22088635006AFFB7 /* Project object */;
+}
