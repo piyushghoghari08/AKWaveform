@@ -23,5 +23,5 @@
 <p> > add NSAllowsArbitraryLoads </p>
 
 <h3> Dependencies </h3>
-<a href="https://github.com/spenciefy/SYWaveformPlayer"> <b> SYWaveformPlayer </b></a>
+<a href="https://github.com/spenciefy/SYWaveformPlayer"> <b> SYWaveformPlayer </b></a> </br>
 <a href="https://github.com/SagarSDagdu/SDDownloadManager"> <b> SDDownloadManager </b></a>
