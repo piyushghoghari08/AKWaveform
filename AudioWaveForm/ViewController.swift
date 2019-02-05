@@ -40,13 +40,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnCancelClick(_ sender: UIButton) {
-        SDDownloadManager.shared.cancelDownload(forUniqueKey: "YOUR_AUDIO_URL")
+        SDDownloadManager.shared.cancelDownload(forUniqueKey: "http://www.jplayer.org/audio/m4a/TSP-01-Cro_magnon_man.m4a")
     }
     
     @IBAction func btnDownloadAudioClick(_ sender: UIButton) {
         self.lblMessage.isHidden = true
         self.vwDownloadProgress.isHidden = false
-        let url = URL(string: "YOUR_AUDIO_URL")
+        let url = URL(string: "http://www.jplayer.org/audio/m4a/TSP-01-Cro_magnon_man.m4a")
         let request = URLRequest.init(url: url!)
         let date :NSDate = NSDate()
         let dateFormatter = DateFormatter()
